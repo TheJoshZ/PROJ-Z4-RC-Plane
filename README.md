@@ -1,7 +1,7 @@
 ## RC Plane Structural & Flight Dynamics Design  
 
 ### 1.0 Overview  
-A modular RC aircraft designed and optimized for structural efficiency, crash resilience, and manufacturability. Developed using **SolidWorks**, **XFLR5**, **Flow5**, and **FEA tools**, the project explored multiple wing and fuselage configurations through iterative simulation, prototyping, and testing.  
+A modular RC aircraft designed and optimized for structural efficiency, crash resilience, and manufacturability. Developed using **SolidWorks**, **XFLR5**, and **Flow5**, the project explored multiple wing and fuselage configurations through iterative simulation, prototyping, and testing. As mentioned in coverletter it is currently stuck in a phase of redesigns
 
 ### 2.0 Features  
 
