@@ -69,4 +69,5 @@ The initial design featured a fuselage mounted on top of the wing, inspired by g
 
 #### 2.5 Flight Dynamics Analysis  
 - Aerodynamic modeling performed in **XFLR5** and **Flow5** for lift, drag, and stability assessment  
-- Parametric studies conducted to balance wing loading, stability, and crash resilience  
+- Parametric studies conducted to balance wing loading, stability, and crash resilience
+![](images/x5_1.png)
