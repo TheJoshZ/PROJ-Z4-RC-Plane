@@ -1,46 +1,63 @@
 ## RC Plane Structural & Flight Dynamics Design  
 
 ### 1.0 Overview  
-A modular RC aircraft designed and optimized for structural efficiency, crash resilience, and manufacturability. Developed using **SolidWorks**, **XFLR5**, and **Flow5**. The project began as a RC plane project and as of Septemver 2025, has been in phases of redesign due to wing structure.
+A modular RC aircraft designed and optimized for structural efficiency, crash resilience, and manufacturability. Developed using **SolidWorks**, **XFLR5**, and **Flow5**. The project began as an RC plane project and, as of September 2025, has gone through multiple redesign phases focused on wing structure improvements.
 
 ### 2.0 Features  
-Intital design has configuration of fusalage sitting on wing, inspired by gliders I saw in Akaflieg. Design was changed to a tradition one, with wings slotted into the fusalage using carbon fiber rods. This was done for manufacturability and ease of installation for the servo wirings.
-- Foils: SD7037, NACA 0010
-- Wingspan: 2m
-- wing area: 0.5 m^2
-- wing loading 2.8 kg/m^2
-- Aspect Ratio: 8
+The initial design featured a fuselage mounted on top of the wing, inspired by gliders I observed at Akaflieg. The configuration was later changed to a more conventional layout, with wings slotted into the fuselage using carbon fiber rods. This was done for manufacturability and to simplify servo wiring installation.
+
+- Foils: SD7037, NACA 0010  
+- Wingspan: 2 m  
+- Wing Area: 0.5 m²  
+- Wing Loading: 2.8 kg/m²  
+- Aspect Ratio: 8  
+
+---
 
 #### 2.1 Fuselage Design  
-- Light weight aerodynmic shell used to house ESC, radio, battery and motor
-- Fully completed with detailed internal structures
-![RC Plane Fuselage](images/fus1.png)
-![RC Plane Fuselage](images/fus2.png)
-![RC Plane Fuselage](images/fus_cs1.png)
-!![RC Plane Fuselage](images/fus_cs2.png)
+- Lightweight aerodynamic shell housing the ESC, radio, battery, and motor  
+- Fully modeled with detailed internal structures  
 
-#### Note: Limitions of FEA in solidworks
-- Non orentation based
-- Using values for PET instead of LW-PLA
+<p float="left">
+  <img src="images/fus1.png" width="200" />
+  <img src="images/fus2.png" width="200" />
+  <img src="images/fus_cs1.png" width="200" />
+  <img src="images/fus_cs2.png" width="200" />
+</p>
 
+---
+
+#### Note: Limitations of FEA in SolidWorks
+- Not orientation-based  
+- Material properties approximated using PET instead of LW-PLA  
+
+---
 
 #### 2.2 Traditional Wing & Spar Configuration  
 - Conventional spar-and-rib design for baseline aerodynamic performance  
-- Rough FEA stress analysis to identify structural weak points during a worse case crash
-![](images/wing_t_1.png)
-![](images/wing_t_2.png)
-![](images/wing_t_fea1.png)
-![](images/wing_t_fea2.png)
+- Rough FEA stress analysis to identify structural weak points during a worst-case crash scenario  
 
+<p float="left">
+  <img src="images/wing_t_1.png" width="200" />
+  <img src="images/wing_t_2.png" width="200" />
+  <img src="images/wing_t_fea1.png" width="200" />
+  <img src="images/wing_t_fea2.png" width="200" />
+</p>
+
+---
 
 #### 2.3 Cross-Braced Wing Configuration  
 - Innovative cross-braced layout for improved load distribution  
-- Comparative FEA simulations against traditional design for strength-to-weight optimization
-![](images/wing_x_1.png)
-![](images/wing_x_2.png)
-![](images/wing_x_fea1.png)
-![](images/wing_x_fea2.png)
+- Comparative FEA simulations against traditional design for strength-to-weight optimization  
 
+<p float="left">
+  <img src="images/wing_x_1.png" width="200" />
+  <img src="images/wing_x_2.png" width="200" />
+  <img src="images/wing_x_fea1.png" width="200" />
+  <img src="images/wing_x_fea2.png" width="200" />
+</p>
+
+---
 
 #### 2.5 Flight Dynamics Analysis  
 - Aerodynamic modeling performed in **XFLR5** and **Flow5** for lift, drag, and stability assessment  
